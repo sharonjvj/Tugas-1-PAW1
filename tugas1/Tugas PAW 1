@@ -1,0 +1,140 @@
+Index
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT. Maju Jaya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PT. Maju Jaya</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Solusi Bisnis Terpercaya</h2>
+            <p>Kami hadir untuk membantu transformasi digital dan pertumbuhan bisnis Anda.</p>
+            <a href="#services" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #004080; color: white; text-decoration: none; border-radius: 5px;">Lihat Layanan</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <p>PT. Maju Jaya adalah perusahaan teknologi yang berfokus pada inovasi dan solusi bisnis berbasis digital. Berdiri sejak 2010, kami telah melayani lebih dari 500 klien dari berbagai industri.</p>
+            <p>Misi kami adalah menjadi mitra strategis dalam membangun masa depan digital yang berkelanjutan dan kompetitif.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Layanan Kami</h2>
+            <ul>
+                <li>Konsultasi dan Strategi Bisnis Digital</li>
+                <li>Desain & Pengembangan Website Profesional</li>
+                <li>Pembuatan Aplikasi Mobile & Web</li>
+                <li>Digital Marketing dan SEO</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="about">
+        <div class="container">
+            <h2>Kontak Kami</h2>
+            <p>Alamat: Jl. Inovasi No.123, Jakarta</p>
+            <p>Email: info@majujaya.co.id</p>
+            <p>Telepon: (021) 123-4567</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 PT. Maju Jaya. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background: #004080;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: #cce5ff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about, .services {
+    padding: 40px 0;
+    background: white;
+    margin: 20px 0;
+}
+
+.services ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+footer {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
